@@ -28,14 +28,14 @@ $ npm start
 .
 ├── truffle
     ├── contracts
-      └── Voting.sol // 合约
+        └── Voting.sol // 合约
     └── migarations
-      └── 2_deploy_voting.js // 合约部署
+        └── 2_deploy_voting.js // 合约部署
 ├── client // 前端代码
-  └── src
-      ├── components/Vote.jsx
-      ├── contexts // 自动生成的中间件，依赖Web3.js
-      ├── contracts
-          └── Voting.json // 自动生成的合约json定义
-      └── App.jsx
+    └── src
+        ├── components/Vote.jsx
+        ├── contexts // 自动生成的中间件，依赖Web3.js
+        ├── contracts
+            └── Voting.json // 自动生成的合约json定义
+        └── App.jsx
 ```
