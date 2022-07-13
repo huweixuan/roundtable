@@ -23,6 +23,8 @@ $ npm start
 ```
 
 ## 代码目录
+
+```sh
 .
 ├── truffle
     ├── contracts
@@ -36,3 +38,4 @@ $ npm start
       ├── contracts
           └── Voting.json // 自动生成的合约json定义
       └── App.jsx
+```
