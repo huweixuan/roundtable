@@ -14,9 +14,25 @@ $ truffle unbox react
 $ npx truffle unbox react
 ```
 
+## 编译合约
+
+首先启动Ganache，打开MetaMask链接本地测试网络并用私钥导入生成的账号，然后在控制台执行以下命令
+
+```sh
+$ cd truffle
+$ truffle compile
+```
+
+## 部署合约
+
+```sh
+$ truffle migrate
+```
+
 ## 启动项目
 
 ```sh
+$ cd ..
 $ cd client
 $ npm start
   Starting the development server...
